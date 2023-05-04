@@ -1,0 +1,72 @@
+@font-face {
+  font-family: custom;
+  src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(232, 67, 147, 1) 46%,
+    rgba(52, 31, 151, 1) 93%
+  );
+}
+.container {
+  height: 550px;
+  width: 350px;
+  border: 2px solid black;
+  margin-top: 10%;
+  background-color: white;
+  box-shadow: 0 0 30px black;
+  border-radius: 20px;
+}
+table {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+button {
+  height: 60px;
+  width: 60px;
+  border: 0;
+  border-radius: 30px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+input {
+  width: 330px;
+  border: none;
+  height: 100px;
+  margin-top: 35px;
+  background-color: transparent;
+  color: black;
+  padding: 0 10px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 5px;
+}
+.btn-operator {
+  background-color: #ee5253;
+  color: #fff;
+}
+.btn-2 {
+  background-color: #1dd1a1;
+  color: #fff;
+}
+.btn-main {
+  background-color: #c3eaff;
+}
+.btn-last {
+  height: 130px;
+  background-color: #ff9f43;
+  color: #fff;
+}
